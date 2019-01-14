@@ -84,3 +84,11 @@ html {
 	font-size: 12px;
 	text-align: center;
 }
+/*changes*/
+.item__discount{
+	font-weight: bold;
+	color:#fc2727
+}
+header a{
+	box-shadow: 0 0 7px 1px whitesmoke;
+}
