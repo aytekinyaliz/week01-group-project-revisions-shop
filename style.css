@@ -74,8 +74,10 @@ html {
 	margin-top: 0;
 }
 
+
 .item__discount {
-	color: #7fcf80;
+	color:#fc2727;
+	font-weight: bold;
 }
 
 /* Footer */
