@@ -29,6 +29,10 @@ html {
 	text-decoration: none;
 	cursor: pointer;
 }
+.button-checkout{
+	border: 1.4px solid rgba(0,0,0,0.1);
+	
+}
 
 /* Site title and top navigation */
 .site-header {
@@ -75,8 +79,19 @@ html {
 }
 
 .item__discount {
-	color: #7fcf80;
+	/* color: #7fcf80; */
+	color: #fc2727;
+	font-weight: bold;
+
 }
+#flex { 
+	display: flex; 
+	/* Optional, if you want the DIVs 100% width: */ 
+	flex-direction: column;
+  }
+  #flex > #a { order: 1; }
+  #flex > #b { order: 2; }
+  #flex > #c { order: 3; }
 
 /* Footer */
 .site-footer {
